@@ -26,7 +26,7 @@ public class Review05 {
 					"KaniKaniKorokke2"
 					);
 
-			String sql = "SELECT * FROM parson WHERE id = ?";
+			String sql = "SELECT * FROM person WHERE id = ?";
 			pstmt = con.prepareStatement(sql);
 
 			System.out.print("検索キーワードを入力してください。 > ");
